@@ -1,6 +1,0 @@
-from nltk.corpus import stopwords
-from nltk.tokenize import words_tokenize, sent_tokenize
-
-sent = "This is the example sentence showing off the stop words filtration."
-
-stop_words = set(stopwords.words("english"))
